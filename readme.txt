@@ -1,6 +1,6 @@
-# 1️⃣ Desafio Classificador de nível de Herói
+# 1️⃣ Desafio Classificador de nível de Herói ## Concluído
 
-**O Que deve ser utilizado**
+**Métodos Utilizados**
 
 - Variáveis
 - Operadores
@@ -9,7 +9,7 @@
 
 ## Objetivo
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+Criado as variáveis para armazenar os nomes e as quantidades de (XP) dos herói, utilização de estruturas de decisões e apresentação das mensagens no console para testes:
 
 Se XP for menor do que 1.000 = Ferro
 Se XP for entre 1.001 e 2.000 = Bronze
@@ -22,5 +22,5 @@ Se XP for maior ou igual a 10.001 = Radiante
 
 ## Saída
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+Saída de mensagens:
+console.log(`O Herói de nome ${myHero} está no nível de ${categories}`);
